@@ -8,8 +8,8 @@ CREATE TABLE EMPLOYEE (
 
 -- Table: COMPANY
 CREATE TABLE COMPANY (
-    CNAME VARCHAR(25) PRIMARY KEY,  -- Company name (Primary Key)
-    CITY VARCHAR(25)               -- City where the company is located
+    CNAME VARCHAR(25) PRIMARY KEY, 
+     CITY VARCHAR(25)               
 );
 
 -- Table: EMP_COMPANY (Many-to-Many relationship between EMPLOYEE and COMPANY)
